@@ -1,16 +1,53 @@
-
-#list {
-	padding: 1px;
-	border: 2px solid #4a592b;
-	margin: 4px;
-}
-
+/** {
+	border: 2px solid red;
+}*/
 html {
 	background: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-6.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+body {
+	font-family: 'Josefin Sans';
+	font-size: 1.6em;
+}
+
+.center-image {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 5px;
+}
+
+section {
+    padding-bottom:100px;
+}
+
+h1 {
+	font-size: 2.3em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+section p {
+    font-family: 'Playfair Display';
+    font-size: .7em;
+    font-weight: bold;
+    font-style: italic;
+} 
+
+#list {
+	padding: 1px;
+	border: 2px solid #4a592b;
+	margin: 4px;
 }
 
 form {
@@ -23,4 +60,11 @@ fieldset {
 
 button {
 	margin: 3px;
+}
+
+#asterisk {
+	font-family: 'Playfair Display';
+    font-size: .7em;
+    font-weight: bold;
+    font-style: italic;
 }
