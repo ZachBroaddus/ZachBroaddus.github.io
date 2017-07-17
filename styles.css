@@ -1,6 +1,3 @@
-/** {
-	border: 2px solid red;
-}*/
 html {
 	background: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-6.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -17,8 +14,7 @@ body {
 .center-image {
 	display: block;
 	margin: 0 auto;
-	width: 50%;
-	padding: 5px;
+	width: 90%;
 }
 
 section {
@@ -68,3 +64,44 @@ button {
     font-weight: bold;
     font-style: italic;
 }
+
+#confirmation {
+	font-weight: bold;
+	margin: 0 auto;
+	width: 30%;
+	padding-top: 200px;
+}
+
+#conf-image {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 5px;
+	opacity: 0.8;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: yellow;
+}
+
+@media screen and (min-width: 800px) {
+  .center-image {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding: 5px;
+}
+}
+
